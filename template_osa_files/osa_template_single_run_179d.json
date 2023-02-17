@@ -1,0 +1,27 @@
+{
+  "analysis": {
+    "display_name": "OSW 2 OSA - Singe Run Algorithm",
+    "name": "osw_2_osa_single_run",
+    "output_variables": [
+     
+    ],
+    "problem": {
+        "analysis_type": "single_run",
+        "algorithm": {
+          "objective_functions": [
+  
+          ]
+        },
+      "workflow": []
+    },
+    "seed": {
+      "file_type": "OSM",
+      "path": "./seeds/retail_seed.osm"
+    },
+    "weather_file": {
+      "file_type": "EPW",
+      "path": "./weather/USA_AK_Fairbanks.Intl.AP.702610_TMY3.epw"
+    },
+    "file_format_version": 1
+  }
+}
